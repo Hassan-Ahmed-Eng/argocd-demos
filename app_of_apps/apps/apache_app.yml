@@ -4,6 +4,7 @@ metadata:
   name: apache-child             # Child app name
   namespace: argocd
 spec:
+  replicas: 1
   project: default
   source:
     repoURL: https://github.com/Hassan-Ahmed-Eng/argocd-demos.git # Repo containing child apps(that you have forked and cloned earlier)
